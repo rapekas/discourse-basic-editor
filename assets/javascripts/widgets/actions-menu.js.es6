@@ -39,7 +39,7 @@ export const ActionsMenuClass = {
     }
   },
 };
-createWidget("actions-menu", ActionsMenuClass)
+//createWidget("actions-menu", ActionsMenuClass)
 createWidget("actions-panel-content",{
   buildKey: (attrs) => `actions-panel-content-${attrs.id}`,
   init(attrs) {

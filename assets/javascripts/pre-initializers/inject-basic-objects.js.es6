@@ -50,28 +50,28 @@ api.reopenWidget("header",{
     this.toggleBodyScrolling(this.state.actionsVisible);
   },
 })
- api.reopenWidget("header-icons", {
-       html(attrs,state) {
-        let su = this._super(attrs)
-        const actions = this.attach("header-dropdown", {
-          title: "actions.title",
-          icon: "edit",
-          iconId: "toggle-actions-menu",
-          action: "toggleActionsMenu",
-          active: state.actionsVisible,
-          href: "",
-          classNames: ["actions-dropdown"],
-        });
-        su.splice(1, 0, actions);
-        return su;
-       },
-   });
+//  api.reopenWidget("header-icons", {
+//        html(attrs,state) {
+//         let su = this._super(attrs)
+//         const actions = this.attach("header-dropdown", {
+//           title: "actions.title",
+//           icon: "edit",
+//           iconId: "toggle-actions-menu",
+//           action: "toggleActionsMenu",
+//           active: state.actionsVisible,
+//           href: "",
+//           classNames: ["actions-dropdown"],
+//         });
+//         su.splice(1, 0, actions);
+//         return su;
+//        },
+//    });
 
- api.addHeaderPanel('actions-menu', 'actionsVisible', function(attrs, state) {
-    //Todo lookup current role
-     let r = this.register.lookup('roles:vanilla')
-    return { name: attrs.name, description: state.description, role: r };
- });
+//  api.addHeaderPanel('actions-menu', 'actionsVisible', function(attrs, state) {
+//     //Todo lookup current role
+//      let r = this.register.lookup('roles:vanilla')
+//     return { name: attrs.name, description: state.description, role: r };
+//  });
 
 
 }
