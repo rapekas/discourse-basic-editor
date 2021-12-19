@@ -152,10 +152,8 @@ Ember.run.later(this, (function() {
             );
           }
 
-
-
           this.appEvents.trigger("composer:will-open");
-      }else {
+      } else {
         const $input = $(this.element.querySelector(".d-editor-input"));
         const $preview = $(this.element.querySelector(".d-editor-preview-wrapper"));
 

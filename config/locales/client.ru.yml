@@ -1,0 +1,15 @@
+ru:
+  js:
+    composer:
+      basic_editor_title: "Упрощенный редактор"
+      basic_actions:
+        vanilla_cat:
+          label: "Упрощенный редактор"
+          desc: "Упрощенный редактор"
+        vanilla_plus:
+          label: "Упрощенный редактор"
+          desc: "Упрощенный редактор"
+    category:
+      basic_editor_setting_heading: "Упрощенный редактор"
+      replace_editor: "custom editor component:"
+      replace_preview: "preview button replace component:"

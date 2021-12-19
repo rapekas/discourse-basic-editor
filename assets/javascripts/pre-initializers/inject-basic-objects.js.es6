@@ -1,8 +1,8 @@
-import { withPluginApi } from "discourse/lib/plugin-api";
-import EmberObject from "@ember/object";
-import { computed } from "@ember/object";
-import { getOwner } from 'discourse-common/lib/get-owner';
-import { iconNode } from "discourse-common/lib/icon-library";
+// import { withPluginApi } from "discourse/lib/plugin-api";
+// import EmberObject from "@ember/object";
+// import { computed } from "@ember/object";
+// import { getOwner } from 'discourse-common/lib/get-owner';
+// import { iconNode } from "discourse-common/lib/icon-library";
 // function injectBasicObjects(api) {
 //   let VanillaRole = EmberObject.extend({
 //     init() {
@@ -66,20 +66,17 @@ import { iconNode } from "discourse-common/lib/icon-library";
 //         return su;
 //        },
 //    });
-
 //  api.addHeaderPanel('actions-menu', 'actionsVisible', function(attrs, state) {
 //     //Todo lookup current role
 //      let r = this.register.lookup('roles:vanilla')
 //     return { name: attrs.name, description: state.description, role: r };
 //  });
-
-
 // }
-export default {
-  name: "inject-basic-objects",
-  after: "inject-discourse-objects",
-    initialize(container, app) {
-      withPluginApi("0.8.31", injectBasicObjects);
-
-    },
-  };
+// export default {
+//   name: "inject-basic-objects",
+//   after: "inject-discourse-objects",
+//     initialize(container, app) {
+//       withPluginApi("0.8.31", injectBasicObjects);
+//
+//     },
+//   };
