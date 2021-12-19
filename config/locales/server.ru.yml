@@ -1,3 +1,4 @@
 ru:
   site_settings:
     discourse_basic_editor_enabled: "Включить плагин DiscourseBasicEditor"
+    basic_editor_enable_category_chooser: "Возможность выбирать категорию в упрощенном редакторе"

@@ -1,3 +1,4 @@
 en:
   site_settings:
     discourse_basic_editor_enabled: "Enable DiscourseBasicEditor plugin"
+    basic_editor_enable_category_chooser: "Enable category chooser in Basic editor"
